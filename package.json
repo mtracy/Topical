@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/mtracy/Topical/issues"
   },
-  "homepage": "https://github.com/mtracy/Topical#readme"
+  "homepage": "https://github.com/mtracy/Topical#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0"
+  }
 }
