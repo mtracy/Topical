@@ -1,0 +1,27 @@
+{
+  "name": "topical",
+  "version": "1.0.0",
+  "description": "A web app that will present personalized news stories, organized in a topographical manner",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtracy/Topical.git"
+  },
+  "keywords": [
+    "News",
+    "node",
+    "aggregation",
+    "RSS",
+    "topographical",
+    "personalized"
+  ],
+  "author": "Mitchell Tracy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtracy/Topical/issues"
+  },
+  "homepage": "https://github.com/mtracy/Topical#readme"
+}
