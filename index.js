@@ -24,12 +24,17 @@ app.get('/', function(req, res) {
   });
 });
 
-// 404 catch-all handler (middleware)
+app.get('/login', function(req, res) {
+	res.render('login', {
+    pageTestScript: '/qa/tests-login.js'
+  });
+});
+
 app.use(function(req, res, next){
 	res.status(404);
 	res.render('404');
 });
-// 500 error handler (middleware)
+
 app.use(function(err, req, res, next){
 	console.error(err.stack);
 	res.status(500);

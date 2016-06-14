@@ -31,6 +31,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.5.3",
-    "pug": "^2.0.0-beta3"
+    "pug": "^2.0.0-beta3",
+    "zombie": "^4.2.1"
   }
 }
